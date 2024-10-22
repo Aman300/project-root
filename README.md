@@ -17,4 +17,11 @@ project-root/
 ├── .gitignore         # Git ignore file
 ├── package.json       # Project metadata and dependencies
 ├── README.md          # Project documentation
-└── server.js          # Starts the server
+
+mkdir project-root
+cd project-root
+npm init -y
+
+npm install express mongoose dotenv morgan
+
+# project-root
